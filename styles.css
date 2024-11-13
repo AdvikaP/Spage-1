@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.option-item:hover {
+    transform: scale(1.1);
+}
